@@ -37,3 +37,6 @@ jobs:
 
       - name: Read my var
         run: echo ${{ vars.CUSTOM_VAR }}
+
+      - name: Run env
+        run: env
